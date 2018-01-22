@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables - styling</title>
+    <style>
+        table, th, td {
+            border: 2px solid peru;
+            border-collapse: collapse;
+            border-spacing: 25px;
+        }
+        tr:nth-child(even) {
+            background-color: aqua;
+        }
+        tr:nth-child(odd) {
+           background-color: brown;
+        }
+        tr:hover {
+            background-color: wheat;
+        }
+        table {
+            overflow-x: scroll;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+<div>
+<table border="1">
+        <caption>
+            <p>
+                This is an intro table.
+            </p>
+        </caption>
+        <colgroup>
+            <col span="1" style="background-color: white">
+            <col span="1" style="background-color: yellow">
+            <col span="1" style="background-color: pink">
+        </colgroup>
+        <thead style="border: solid blue">
+
+        <tr>
+            <th scope="col">Car 1</th>
+            <th scope="col">Car 2</th>
+            <th scope="col">Car 3</th>
+        </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Mazda6</td>
+            <td>Camry</td>
+            <td>Accord</td>
+         </tr>
+         <tr>
+            <td>3-series</td>
+            <td>c-class</td>
+            <td align="center">a4</td>
+        </tr>
+        </tbody>
+        <tfoot style="text-align: center; font-style: italic">
+        <tr>
+            <td>other</td>
+            <td>other</td>
+            <td>other</td>
+        </tr>
+
+        </tfoot>
+
+
+    </table>
+    </div>
+
+</body>
+</html>

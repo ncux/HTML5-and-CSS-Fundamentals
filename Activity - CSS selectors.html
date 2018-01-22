@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Activity - CSS selectors</title>
+    <style>
+        body, html {
+            font-family: "DejaVu Sans";
+        }
+        .appearRed {
+            color: red;
+        }
+        .appearBlue {
+            color:blue;
+        }
+        .appearItalic {
+            font-style: italic;
+        }
+        .appearBold {
+            font-weight: bold;
+        }
+        #taletwocities {
+            list-style-type: lower-alpha;
+        }
+        #middlemarch {
+            margin-left: 30px;
+            list-style-type: lower-roman;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Characters</h1>
+    <h2>Middlemarch</h2>
+    <h3>George Eliot</h3>
+    <ol id="middlemarch">
+        <li class="appearBlue appearBold">Dorothea Brooke</li>
+        <li class="appearBlue">Celia Brooke</li>
+        <li class="appearRed">Edward Casaubon</li>
+        <li class="appearRed">Sir James Chettam</li>
+        <li class="appearRed appearItalic">Joshua Rigg</li>
+        <li class="appearRed">Will Ladislaw</li>
+        <li class="appearRed">Tertius Lydgate</li>
+        <li class="appearBlue">Rosamond Vincy</li>
+    </ol>
+    <h2>A Tale of Two Cities</h2>
+    <h3>Charles Dickens</h3>
+    <ol id="taletwocities">
+        <li class="appearRed">Charels Danay</li>
+        <li class="appearRed appearBold">Sydney Carton</li>
+        <li class="appearRed">Doctor Manette</li>
+        <li class="appearBlue">Lucie Mantte</li>
+        <li class="appearBlue appearItalic">Madame Defarge</li>
+        <li class="appearBlue">Miss Pross</li>
+    </ol>
+
+</body>
+</html>

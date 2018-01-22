@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Holy grail</title>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .parent > * {
+            margin: 10px;
+            padding: 20px;
+            background-color: wheat;
+            border-radius: 10px;
+            flex: 1;
+        }
+
+        .parent {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .inMain {
+            border: 2px solid teal;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .parent header, .parent footer {
+            flex: 0 1 100vw;
+        }
+
+        .parent {
+            min-height: 100vh;
+        }
+
+        aside {
+            max-width: 25vw;
+            max-height: 25vh;
+            overflow-y: scroll;
+        }
+    </style>
+
+</head>
+<body>
+<div class="parent">
+    <header>
+        <h1> Playing with Flexbox </h1>
+        <p>
+            I'm just surprised they made it out alive. Those kinds of bars tend to attract bears.
+        </p>
+
+    </header>
+
+    <aside>
+
+        <details>
+            <summary><h3>Toilet Paper in China</h3>  </summary>
+
+                <p>   I moved to China a few weeks ago and this happened last week.
+I was out and about with another international teacher I met a few days earlier. As we were walking towards the bar we had planned on visiting, I had an emergency. I had to take a shit. Desperately. I calmly suggested to her that we find a bathroom soon while I on the inside was squirming in pain knowing this diarrhea that was about to happen wasn’t going to be any fun.
+We eventually found a restroom and I am relieved to finally take this glorious shit. I am hoping there will be one western style toilet, but there are only squatty pottys. I bust the door open to one of them and realize that there is no toilet paper in the stall. I search frantically, but find none. I take a few deep breaths and tell myself: “you got this. Just hold it.” I walk back out and about 10 steps out I rush back as I’m literally about to shit myself. At this point I can think of two options:
+Shit myself.
+Take a dump in the squatty potty and use the toilet paper in the trash can (since you’re not supposed to flush down toilet paper) which other dudes have used God knows how many minutes before my arrival.
+I settled for option 2. In addition, there was no soap to wash my hands with afterwards. It was hard trying not to gag for the remainder of the evening.
+TL;DR Re-used used toilet paper and now always bring tp with me
+
+          </p>
+        </details>
+
+    </aside>
+
+    <main>
+        <p class="inMain">
+            The outcome of the “Great Stink”, as that summer’s crisis was coined, was one of history’s most life-enhancing advancements in urban planning. It was a monumental construction project that, despite being driven by dodgy science and political self-interest, dramatically improved the public’s health and laid the foundation for modern London.
+        </p>
+
+        <p class="inMain">
+            London is, of course, an ancient metropolis, but according to the city’s prolific biographer (and Londoner) Peter Ackroyd, the 19th century “was the true century of change”. And by the mid-1800s, reform of the capital’s sanitation, like much else in the nation’s political and social life, was long overdue.
+        </p>
+
+        <p class="inMain">
+            The result was successive waves of waterborne diseases such as dysentery, typhoid and, most feared of all by mid-century, cholera. For this “Victorian plague”, as the historian Amanda J Thomas characterises it, there was no known cure – whatever quacks claimed – and the wealthy were not immune. The first major cholera epidemic in Britain, in 1831-32, killed more than 6,000 Londoners. The second, in 1848-49, took more than 14,000. Another outbreak in 1853-54 claimed a further 10,000 lives.
+        </p>
+
+        <p class="inMain">
+            According to the Observer newspaper, “every penny spent is sunk in a good cause” in the creation of this “most extensive and wonderful work of modern times”. And the work almost immediately proved its worth: in 1866, most of London was spared from a cholera outbreak which hit part of the East End, the only section not yet connected to the new system.
+        </p>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li> <a href="mailto: wapo@upyours.com"> Email me:</a></li>
+             <li> <a href="http://reddit.com">Link to Reddit</a></li>
+             <li> <a href="http://plus.google.com"> Link to Google Plus </a></li>
+        </ul>
+
+    </footer>
+
+</div>
+</body>
+</html>

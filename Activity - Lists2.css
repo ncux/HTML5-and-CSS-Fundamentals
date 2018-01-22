@@ -1,0 +1,17 @@
+
+        li {
+            font-family: "Times New Roman";
+            margin-left: 20px;
+            line-height: 16px;
+        }
+
+        h1 {
+            font-family: "Comic Sans MS";
+            text-align: center;
+            color: darkgreen;
+        }
+
+        ol {
+            line-height: 50px;
+        }
+

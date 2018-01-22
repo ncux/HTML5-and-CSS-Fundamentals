@@ -1,0 +1,53 @@
+
+    .main-heading {
+    background-color: mediumaquamarine;
+    }
+
+    .sub-heading {
+        background-color: aqua;
+    }
+
+    table, th, td {
+        border: 2px solid teal;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+
+    td, th {
+        padding: 0.5rem;
+    }
+
+    tr:nth-child(3n) {
+        background-color: none;
+    }
+
+    tr:hover {
+        background-color: wheat;
+    }
+
+    tbody {
+        background-color: white;
+    }
+
+    tr {
+        text-align: center;
+    }
+
+    table {
+        overflow-y: scroll;
+        overflow-x: scroll;
+    }
+
+    tfoot {
+        font-family: "Comic Sans MS";
+        font-weight: bold;
+        font-size: large;
+        background-color: wheat;
+    }
+
+    tbody td {
+        width: 12rem;
+        height: 2rem;
+    }
